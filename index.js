@@ -2,7 +2,6 @@ import http from "http";
 import express from "express";
 import { dirname } from "path";
 import { fileURLToPath } from "url";
-
 import { Server } from "socket.io";
 
 const app = express();
